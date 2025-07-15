@@ -1,4 +1,4 @@
-# Nova Sonic Contact Center with Telephony
+# Nova Sonic Contact Center with Vonage
 Authors: Andrew Young, Reilly Manton
 
 This solution introduces a comprehensive analytics dashboard for monitoring and enhancing Amazon Bedrock's Nova speech-to-speech model interactions in a customer support context. The dashboard provides real-time sentiment analysis with visual trend graphs, overall call sentiment visualization via donut charts, AI-powered agent guidance, and key performance metrics including agent/customer talk time percentages and response times. All frontend analytics are powered by Amazon's Nova Lite model, while the backend S2S model features knowledge base integration for improved response accuracy, creating a powerful toolkit for enhancing telco customer support operations.
@@ -10,6 +10,7 @@ This solution introduces a comprehensive analytics dashboard for monitoring and 
 - AWS Account with Bedrock access to Nova S2S model
 - AWS CLI credentials
 - Microphone and speakers
+- Vonage account and phone number
 
 From the root folder, run `npm install`
 
@@ -56,9 +57,7 @@ If you do not need inbound telephony, or you only want to test the server, then 
 > sudo AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY AWS_SESSION_TOKEN=$AWS_SESSION_TOKEN ts-node server.ts
 ```
 
-##### Set up telephony provider
-
-###### With Vonage
+##### Set up Vonage
 1. Go to vonage.com
 2. If you don't already have an account, sign up for a Vonage account and ensure you have enough balance.
 3. Once you have an account, log in to the Vonage Communications API dashboard.

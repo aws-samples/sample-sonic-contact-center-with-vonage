@@ -65,8 +65,8 @@ If you do not need inbound telephony, or you only want to test the server, then 
 4. On the left-side menu, click Applications. 
 5. On the main screen, click `+ Create new application`
 6. Under Capabilities, enable Voice capabilities. 
-7. For the Answer URL, make it an `HTTP GET` to `<your-hostname>/webhook/answer`
-7. For the Event URL, make it an `HTTP POST` to `<your-hostname>/webhook/event`
+7. For the Answer URL, make it an `HTTP GET` to `<your-hostname>/vonage/answer`
+7. For the Event URL, make it an `HTTP POST` to `<your-hostname>/vonage/event`
 8. For the Fallback URL, make it an `HTTP POST` to `<your-hostname>/webhook/fallback`
 9. Create and associate a phone number to your application. You may need to purchase a phone number to do this.
 

@@ -21,7 +21,7 @@
     "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8",
     "typescript": "^5.8.3",
-    "vite": "^6.3.5"
+    "vite": "^6.4.1"
   },
   "dependencies": {
     "@aws-sdk/client-bedrock-runtime": "^3.817.0",

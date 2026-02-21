@@ -8,8 +8,8 @@
   "author": "andrewjunyoung",
   "license": "UNLICENSED",
   "dependencies": {
-    "@aws-sdk/client-bedrock-runtime": "^3.785.0",
-    "@aws-sdk/credential-providers": "^3.782.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.995.0",
+    "@aws-sdk/credential-providers": "^3.995.0",
     "@smithy/node-http-handler": "^4.0.4",
     "alawmulaw": "^6.0.0",
     "aws-sdk": "^2.1692.0",

@@ -24,9 +24,9 @@
     "vite": "^6.3.5"
   },
   "dependencies": {
-    "@aws-sdk/client-bedrock-runtime": "^3.817.0",
-    "@aws-sdk/client-polly": "^3.817.0",
-    "@aws-sdk/credential-providers": "^3.817.0",
+    "@aws-sdk/client-bedrock-runtime": "^3.995.0",
+    "@aws-sdk/client-polly": "^3.995.0",
+    "@aws-sdk/credential-providers": "^3.995.0",
     "@types/react": "^19.1.6",
     "aws-sdk": "^2.1692.0",
     "axios": "^1.9.0",
